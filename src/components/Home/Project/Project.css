@@ -1,0 +1,14 @@
+.project{
+    font-weight: 500;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width:415px) {
+    .projects{
+        display: flex;
+        flex-direction:column;
+    }
+    
+}
