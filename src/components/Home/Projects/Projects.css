@@ -1,0 +1,17 @@
+.project{
+    font-weight: 500;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding:50px;
+}
+@media only screen and (max-width:415px) {
+    .projects{
+        display: flex;
+        flex-direction:column;
+        padding:20px
+    }
+    
+}

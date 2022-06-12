@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Best Phone Collection",
+        "img1":"https://i.ibb.co/D9VtVVP/2022-06-12-11-400x350.png",
+        "img2":"https://i.ibb.co/8629B8s/2022-06-12-10-1-400x350.png",
+        "img3":"https://i.ibb.co/YTp5ZZk/2022-06-12-9-400x350.png",
+        "description":"Assalamualaikum, our website is a site of fruit stocking. Our website discusses in detail the storage of different types of fruits - such as price, quantity, seller, description, picture, name, etc. You can choose any of our fruits and we have some fruit stocks and discussed how we produce.",
+        "liveSiteLink":"https://ashraful-assignment-6.netlify.app/",
+        "codeLink":"https://github.com/Ashraful610/best-phone-collection",
+        "serverSiteLink":"",
+        "tools":"HTML , CSS , JavaScript "
+
+    },
+    {
+        "name":"Fruits Stock",
+        "img1":"https://i.ibb.co/6Jdp3gR/2022-06-12-15-400x350.png",
+        "img2":"https://i.ibb.co/3TLPK07/2022-06-12-16-400x350.png",
+        "img3":"https://i.ibb.co/9TF0j1z/2022-06-12-17-400x350.png",
+        "description":"Assalamualaikum, our website is a site of fruit stocking. Our website discusses in detail the storage of different types of fruits - such as price, quantity, seller, description, picture, name, etc. You can choose any of our fruits and we have some fruit stocks and discussed how we produce.",
+        "liveSiteLink":"https://assignment-client-site-11.web.app/",
+        "codeLink":"https://github.com/Ashraful610/fruit-stock",
+        "serverSiteLink":"https://github.com/Ashraful610/fruit-stock-server-site",
+        "tools":"HTML , CSS , JavaScript ,Bootstrap , React , React Router , Hot Toast , Firebase , React Firebase Hooks , Node JS , Express JS ,MongoDB "
+
+    },
+    {
+        "name":"World Class Photography",
+        "img1":"https://i.ibb.co/wp6gGVg/2022-06-12-12-400x350.png",
+        "img2":"https://i.ibb.co/2s4PJQD/2022-06-12-13-400x350.png",
+        "img3":"https://i.ibb.co/XsvQxmv/2022-06-12-14-400x350.png",
+        "description":"Assalamualaikum, our website is a site of fruit stocking. Our website discusses in detail the storage of different types of fruits - such as price, quantity, seller, description, picture, name, etc. You can choose any of our fruits and we have some fruit stocks and discussed how we produce.",
+        "liveSiteLink":"https://assignment-firebase-10.web.app/",
+        "codeLink":"https://github.com/Ashraful610/Photography",
+        "serverSiteLink":"",
+        "tools":"HTML , CSS , JavaScript ,React ,React Router , React Bootstrap , Firebase"
+
+    }
+]

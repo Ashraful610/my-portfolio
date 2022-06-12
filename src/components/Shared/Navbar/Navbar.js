@@ -5,17 +5,19 @@ import './Navbar.css'
 const Navbar = () => {
     const allLink = <>
                 <li>
-                    <button class="btn btn-ghost text-white mx-4">Home</button>
+                    <button className="btn btn-ghost text-white mx-4">
+                        <Link to="/home">Home</Link>
+                    </button>
                 </li>
                 <li>
-                    <button class="btn btn-ghost text-white mx-4">Project</button>
+                    <button className="btn btn-ghost text-white mx-4">Project</button>
                 </li>
                 <li>
-                    <button class="btn btn-ghost text-white mx-4">Contact</button>
+                    <button className="btn btn-ghost text-white mx-4">Contact</button>
                 </li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar  bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex="0" className="btn btn-ghost lg:hidden">
