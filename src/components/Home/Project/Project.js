@@ -12,16 +12,16 @@ const Project = ({project}) => {
     }
     return (
         <div className="card card-compact  bg-base-100 shadow-xl mx-3 mb-5 ">
-        <figure>
-            <img src={img1} alt="Shoes" />
-         </figure>
-          <div className="card-body">
-             <h2 className="card-title">Project Name :{name}</h2>
-             <p> <span className='project'>Project Description :</span>
+            <figure>
+                <img src={img1} alt="Shoes" />
+            </figure>
+          <div className="card-body project-details">
+             <h2 className="card-title">Project Name : {name}</h2>
+             <p> <span className='project'>Project Description : </span>
                {description}
              </p>
                <div className="card-actions justify-start">
-                   <button className="btn btn-outline btn-primary"
+                   <button className="btn btn-outline details-button" 
                     onClick={()=> handleProjectDetails(_id)}
                    >
                          Details

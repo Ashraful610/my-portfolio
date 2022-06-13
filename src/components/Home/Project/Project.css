@@ -1,0 +1,18 @@
+.project{
+    font-weight: 500;
+}
+.details-button{
+    background-color: none;
+    outline: 2px solid crimson;
+    border:none;
+    color:crimson;
+}
+.details-button:hover{
+    background-color:rgba(220, 20, 60, 0.632);
+    color:white;
+}
+.project-details{
+    background-image: url('https://i.ibb.co/FXgkbCw/background-gif.gif');
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.632);
+}

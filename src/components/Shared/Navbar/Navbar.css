@@ -1,4 +1,9 @@
 .navbar{
-    background-color: rgba(0, 0, 0, 0.877);
-   /* fixed:top; */
+    background-image: url('https://i.ibb.co/FXgkbCw/background-gif.gif');
+    background-size:cover;
+    height:fit-content;
+    top:fixed;
+}
+.btn-ghost:hover{
+    background-color: rgba(220, 20, 60, 0.632);
 }

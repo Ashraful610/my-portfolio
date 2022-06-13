@@ -2,11 +2,9 @@
     display: flex;
     flex-direction:row;
     padding: 50px;
-    background-color: rgba(0, 0, 0, 0.877);
-    /* background-image: url('https://i.ibb.co/hFFRxKv/background-img.jpg');
-    background-repeat: no-repeat; */
-    /* background-size: 100%; */
-    
+    background-image: url('https://i.ibb.co/FXgkbCw/background-gif.gif');
+    background-size:cover;
+    height:100%;
 }
 .photo{
     padding-left: 50px;
@@ -25,16 +23,17 @@
 }
 .resume-btn{
     margin-top: 20px;
-    outline:2px solid rgb(249, 245, 249);
+    outline:2px solid rgba(220, 20, 60, 0.575);
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left:40px;
     padding-right:40px;
     border-radius: 20px;
     font-size: 16px;
+    color:crimson;
 }
 .resume-btn:hover{
-    background-color:rgb(166, 0, 255) ;
+    background-color:rgba(220, 20, 60, 0.632) ;
     color:white;
 }
 @media only screen and (max-width:415px) {
@@ -42,10 +41,6 @@
         display: flex;
         flex-direction:column;
         padding: 0px;
-         background-color: rgba(0, 0, 0, 0.877);
-        /* background-image: url('https://i.ibb.co/hFFRxKv/background-img.jpg');
-        background-repeat: no-repeat; */
-        background-size: 100%;        
     }
     .banner-details{
         padding-top: 20px;

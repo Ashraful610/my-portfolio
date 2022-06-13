@@ -1,0 +1,8 @@
+.blog{
+    background-image:url('https://i.ibb.co/FXgkbCw/background-gif.gif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}

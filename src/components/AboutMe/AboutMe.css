@@ -1,0 +1,82 @@
+.about{
+    background-image:url('https://i.ibb.co/FXgkbCw/background-gif.gif');
+    background-size: cover;
+    height:100%;
+    padding:100px;
+}
+.profile-img{
+    display: flex;
+    justify-content: center;
+}
+.my-img{
+    width:250px;
+    height:250px;
+    border-radius: 300px 300px 0px 1000px; ;
+}
+.my-details{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.information{
+    color:crimson;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+.technology{
+    display: flex;
+    /* justify-content: space-between ; */
+}
+.progress{
+    background-color: crimson;
+}
+.radial-progress{
+ 
+}
+.progress-1{
+    --value:90;
+    --size:10rem;
+    color:rgb(186, 20, 54);
+}
+.progress-2{
+    --value:80;
+    --size:10rem;
+    color:rgb(186, 20, 54);
+}
+.professional{
+    padding:50px;
+}
+.work{
+    display:flex;
+    flex-direction:row;
+}
+@media only screen and (max-width:415px) {
+    .about{
+        padding:50px;
+    }
+    .my-img{
+        border-radius: 300px 300px 1000px  0px;
+    }
+    .my-details{
+        display:flex;
+        flex-direction:column;
+        padding:0px;
+    }
+    .skills{
+        display:flex;
+        flex-direction:column;
+    }
+    .professional{
+        padding:10px;
+    }
+    .progress-1{
+        --size:8rem;
+    }
+    .progress-2{
+        --size:8rem;
+    }
+}

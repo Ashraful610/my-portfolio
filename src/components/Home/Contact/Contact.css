@@ -1,15 +1,25 @@
 .hero{
-    background-color: rgba(0, 0, 0, 0.877);
+    background-image:url('https://i.ibb.co/FXgkbCw/background-gif.gif')
 }
 .input{
     width:400px;
     border:2px solid rgba(0, 0, 255, 0.235);
-    border-radius:10px
+    border-radius:10px;
 }
 .text-area{
     width:400px;
     border:2px solid rgba(0, 0, 255, 0.235);
-    border-radius:10px
+    border-radius:10px;
+}
+.submit{
+    outline:2px solid crimson;
+    background-color:none;
+    color:crimson;
+    font-size:18px;
+    border-radius:50px;
+}
+.submit:hover{
+    background-color:rgba(220, 20, 60, 0.632);
 }
 @media only screen and (max-width:415px) {
     .input{

@@ -12,8 +12,10 @@ const Projects = () => {
         .then(data  => setProjects(data))
     },[])
     return (
-        <div className=''>
-            <h3 className="text-center lg:text-3xl text-xl font-bold my-10">My Projects</h3>
+        <div className='project-div' >
+            <h3 className="text-center lg:text-3xl text-xl text-white font-bold">
+                My  <span className="information">Project</span> 
+            </h3>
             <div className=" projects">
                       {
                         projects?.map(project => <Project key={project._id} project={project}></Project>)

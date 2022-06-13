@@ -1,10 +1,11 @@
-.project{
-    font-weight: 500;
+.project-div{
+   background-image: url('https://i.ibb.co/FXgkbCw/background-gif.gif');
+   background-size: cover;
+    height: fit-content;
 }
 .projects{
     display: flex;
     flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.877);
     padding:50px;
 }
 @media only screen and (max-width:415px) {
