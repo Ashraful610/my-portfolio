@@ -8,7 +8,7 @@ const ProjectDetails = () => {
     const {name , description , img1 , img2 ,img3 ,liveSiteLink,codeLink , serverSiteLink ,tools} = project || {}
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/projects/${id}`)
+        fetch(`https://damp-fjord-25103.herokuapp.com/projects/${id}`)
         .then(res => res.json())
         .then(data => setProject(data))
     },[])
