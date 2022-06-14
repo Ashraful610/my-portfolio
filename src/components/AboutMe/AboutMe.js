@@ -7,7 +7,7 @@ const AboutMe = () => {
             <div className='profile-img'>
                 <img src="https://i.ibb.co/cyzZVtb/Blue-Grey-Modern-Business-Linktree-Profile-Image.gif" className='my-img' alt="" />
             </div>
-            <h2 className='lg:text-3xl lg:text-2xl text-xl text-center text-white mt-10'>
+            <h2 className='lg:text-3xl lg:text-2xl text-xl text-center text-white lg:mt-10 mt-10 mb-5'>
                          My <span className='information'>Information</span>
              </h2>
             <div className="my-details ">
